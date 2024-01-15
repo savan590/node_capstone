@@ -1,0 +1,63 @@
+.container{
+    box-sizing: border-box;
+    width: 50vw;
+    padding: 0 5vw 0 5vw;
+    font-family: DM Sans;
+    position: relative;
+}
+.jobForm{
+    
+}
+.label{
+    width: 50%;
+    height: 4vh;
+}
+textarea{
+    resize: none;
+    height: 8vh;
+}
+::placeholder{
+    font-size: 12px;
+    padding-left: 5px;
+}
+.select{
+    width:35%;
+    /* align-items: flex-start; */
+    /* justify-content: flex-start; */
+    margin-right: 200px;
+}
+.formGroup{
+    display: flex;
+    /* justify-content: flex-start; 
+    align-items:flex-start; */
+    font-size: 17px;
+    margin: 12px 0;
+}
+.h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.input{
+    width: 90%;
+}
+
+.cancel{
+    background: #FFFFFF;
+    border: 2px solid #CECECE;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-left: 18vw;
+    margin-right: 10px;
+    width: 25%;
+}
+
+.add{
+    background: #ED5353;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    width: 25%;
+    font-weight: 600;
+}

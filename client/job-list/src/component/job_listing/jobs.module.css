@@ -1,0 +1,160 @@
+.container{
+    width: 80vw;
+    position: fixed;
+    top: 15vh;
+    left: 10vw;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding: 2rem 1rem;
+    background-color: white;
+    box-shadow: 0px 4px 23px 2px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+    text-align: center;
+}
+.logo{
+    width: 5vw;
+    margin: 40px 20px 0 10px;
+}
+
+.addjob{
+    background: #ED5353;
+    border-radius: 6.50784px;
+    padding: 1em 2em;
+    border: none;
+    color: white;
+    font-weight: 600;
+    margin-right: 75px;
+}
+
+.containerTop{
+    /* text-align: left;
+    margin-bottom: 2rem; */
+}
+
+.containerBottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputTop{
+    width: 85%;
+    height: 30px;
+    border-radius: 9px;
+    /* margin-left: 35px; */
+    margin: 0px 0px 20px 15px;
+}
+
+.inputSelect{
+    /* width: 12rem; */
+    width: 143px;
+height: 35px;
+margin-left: 75px;
+/* top: 298px; */
+/* left: 283px; */
+border-radius: 9px;
+/* border: 2px; */
+
+}
+
+.list{
+    width: 80vw;
+    margin:4vh auto 12px auto;
+    background-color: white;
+    box-shadow: 0px 4px 23px 2px rgba(0, 0, 0, 0.1);
+    padding: 0 20px 0 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.listLeft{
+    display: flex;
+}
+
+.infoLeft{
+    margin: 5px 0 0 20px;
+}
+
+.position{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1.1rem;
+}
+
+.extraInfo{
+    display: flex;
+    gap: 10px;
+    /* margin-bottom: 20px; */
+}
+
+.greyText{
+    color: #9C9C9C;
+}
+
+.redText{
+    color: #ED5353;
+}
+
+.skill{
+    background-color: #FFEEEE;
+    color: black;
+    padding: 10px;
+    border-radius: 6px;
+    /* margin-top: 5px; */
+    margin-right: 15px;
+}
+
+.btnGroup{
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+    /* justify-content: space-evenly; */
+}
+
+.view{
+    
+    border-radius: 6px;
+    padding: 8px 15px;
+    border: none;
+    color: white;
+    background-color: #ED5353;
+    font-weight: 600;
+}
+
+.bottom{
+    position: fixed;
+    top: 40vh;
+    left: 10vw;
+    height: fit-content;
+    /* overflow: scroll; */
+}
+
+
+.chip{
+    box-sizing: border-box;
+    background: #FFEEEE;
+    color: black;
+    padding: 8px 0 8px 8px;
+}
+
+.cross{
+    background-color: #ED5353;
+    font-weight: 600;
+    margin-left: 13px;
+    padding: 7px;
+    color: white;
+}
+
+.edit{
+    /* background: #ED5353; */
+    background-color: transparent;
+    border: 1px solid #ED5353;
+    border-radius: 7px;
+    padding: 8px 25px;
+    /* border: none; */
+    /* background: #ED5353; */
+    margin-left: 75px;
+    font-weight: 600;
+}

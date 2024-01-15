@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({ extended: true}))
 app.set('view engine', 'ejs')
 
 const corsOptions = {
-  origin:"https://curious-crepe-37373e.netlify.app",
+  origin:"https://savan-mern-site.netlify.app",
   // other CORS options...
 };
 

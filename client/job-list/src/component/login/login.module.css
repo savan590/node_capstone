@@ -26,7 +26,6 @@
 }
 .button{
     width: 40%;
-    /* height: 28px; */
     padding: 8px;
     font-size: 20px;
     background: #ED5353;
@@ -38,7 +37,7 @@
     margin-top: 10px;
 
 }
-.footer{}
+
 .underline{
     margin: 4px;
     font-weight: 700;

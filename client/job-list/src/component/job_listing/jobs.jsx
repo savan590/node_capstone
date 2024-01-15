@@ -23,12 +23,10 @@ function Listing() {
         if (!skills.includes(selectedSkill)) {
             const updatedSkills = [...skills, selectedSkill];
             setSkills(updatedSkills);
-            // setSkills((prevSkills) => [...prevSkills, selectedSkill]);
         }
     };
 
     const handleRemove = (skill) => {
-        // setSkills((prevSkills) => prevSkills.filter((s) => s !== skill));
         const updatedSkills = skills.filter((s) => s !== skill);
         setSkills(updatedSkills);
     };
@@ -76,7 +74,6 @@ function Listing() {
                 </div>
                 <div className={styles.containerBottom}>
                     <select onClick={handleSkill} className={styles.inputSelect} name="remote">
-                        {/* <option value="">Skills</option> */}
                         {codingSkills.map((skill) => (
                             <option key={skill} value={skill}>
                                 {skill}
@@ -104,7 +101,6 @@ function Listing() {
                                         src={data.add_logo_url || c}
                                         onError={(e) => console.error("Image loading error", e)}
                                     />
-                                    {/* {data.add_logo_url ? <img alt='' src={data.add_logo_url} /> : <img alt='' src={c} />} */}
                                 </div>
                                 <div className={styles.infoLeft}>
                                     <p className={styles.position}>{data.job_position}</p>
@@ -146,7 +142,7 @@ function Listing() {
 
 
 const codingSkills = [
-    'JavaScript',
+    'javascript',
     'python',
     'java',
     'C++',
@@ -154,10 +150,10 @@ const codingSkills = [
     'Ruby',
     'PHP',
     'Swift',
-    'Objective-C',
+    'mongodb',
     'SQL',
     'HTML',
-    'CSS',
+    'ds',
     'css',
     "node",
     "react"

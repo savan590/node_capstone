@@ -31,7 +31,6 @@ body{
 }
 .button{
     width: 50%;
-    /* height: 28px; */
     padding: 8px;
     font-size: 20px;
     background: #ED5353;
@@ -43,7 +42,6 @@ body{
     margin-bottom:8px ;
 
 }
-.footer{}
 .underline{
     margin: 4px;
     font-weight: 700;

@@ -5,7 +5,6 @@
     left: 9.3vw;
     margin-right: auto;
     box-sizing: border-box;
-    /* padding: 2rem 1rem; */
     background-color: white;
     box-shadow: 0px 4px 23px 2px rgba(0, 0, 0, 0.1);
     z-index: 2;
@@ -40,7 +39,6 @@
 
 .locationText{
     color: #ED5353;
-    /* margin-top: 0.5rem; */
     margin-top: 0px;
     margin-bottom: 10px
 }
@@ -50,7 +48,6 @@
 .info h2{
     font-weight: 700;
     font-size: 20px;
-    /* margin-bottom: 0.6rem; */
 }
 
 .info p{
@@ -60,7 +57,6 @@
 .perks{
     display: flex;
     gap: 4rem;
-    /* margin-top: 1rem; */
 }
 
 .skill{
